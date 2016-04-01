@@ -1,0 +1,19 @@
+*{margin:0px;padding:0px;border:0px;}
+html, form { height:100%; }
+body{background:#f5f5f5;color:#555;font-family:'Open Sans Condensed', sans-serif;font-size:15px;font-weight:400; height:100%; }
+a{text-decoration:none;color:#555;}
+p{padding-bottom:10px;}
+h1, h2{font-weight:600;}
+i { cursor:pointer; }
+.clear{clear:both;}
+
+.slider-tasiyici { position:relative; width:600px; border:1px solid #eee; background:#fff; margin:auto; }
+.resim-tasiyici { width:600px; height:200px; overflow:hidden; }
+.resim-tasiyici img { width:600px; height:200px;}
+.resim-tasiyici li { list-style:none;  transition:200ms all; position:absolute; left:0px; top:0px;  }
+.prev {position:absolute; top:80px; left:0px; background:#000; color:#fff; padding:10px; font-weight:bold; cursor:pointer; z-index:99; }
+.next {position:absolute; top:80px; right:0px; background:#000; color:#fff; padding:10px; font-weight:bold; cursor:pointer; z-index:99; }
+
+.text {font-size:20px; padding:10px; font-weight:bold; color:#fff; position:absolute; bottom:3px; width:calc(100% - 20px); background:rgba(65,105,225, 0.7);}
+
+

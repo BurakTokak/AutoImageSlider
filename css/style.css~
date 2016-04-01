@@ -1,0 +1,18 @@
+*{margin:0px;padding:0px;border:0px;}
+html, form { height:100%; }
+body{background:#f5f5f5;color:#555;font-family:'Open Sans Condensed', sans-serif;font-size:15px;font-weight:400; height:100%; }
+a{text-decoration:none;color:#555;}
+p{padding-bottom:10px;}
+h1, h2{font-weight:600;}
+i { cursor:pointer; }
+.clear{clear:both;}
+
+.slider-tasiyici { width:270px; border:1px solid #eee; background:#fff; margin:auto; }
+.resim-tasiyici { width:270px; height:270px; overflow:hidden;}
+.resim-tasiyici img { width:270px; height:270px; }
+.resim-tasiyici li { list-style:none; }
+
+.buton li {border-left:1px solid #eee; float:left; padding:10px 15px; list-style:none; cursor:pointer; }
+.buton li:hover {background:rgba(39,137,162, 1); color:#fff; border-left:1px solid rgba(39,137,162, 1); }
+.buton li.aktif {background:rgba(39,137,162, 1); color:#fff; border-left:1px solid rgba(39,137,162, 1);}
+.buton li.r {float:right; }
